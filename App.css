@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f1f2f6;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.form-crud {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-crud input,
+.form-crud button {
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+.form-crud button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.list-crud {
+  list-style: none;
+  padding: 0;
+}
+
+.list-crud li {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.info .desc {
+  font-weight: bold;
+}
+
+.info .price {
+  color: #333;
+}
+
+.info .stock {
+  color: #777;
+}
+
+.actions button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.actions .edit {
+  color: green;
+}
+
+.actions .delete {
+  color: red;
+}
